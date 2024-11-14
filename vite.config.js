@@ -10,7 +10,7 @@ export default defineConfig({
 				display: "standalone",
 				scope: "/",
 				start_url: "/",
-				theme_color: "f69435",
+				theme_color: "#f69435",
 				icons: [
 					{
 						src: "/logo.svg",
