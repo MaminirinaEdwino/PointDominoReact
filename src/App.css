@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+    @apply text-4xl text-center
+}
+header{
+    @apply flex justify-center
+}
+header button{
+    @apply absolute 
+}
+header #b1{
+    @apply left-2 top-2
+}
+header #b2{
+    @apply right-2 top-2
+}
+article{
+    @apply flex flex-col min-w-28 max-w-28 text-center
+}
+.addPoint{
+    @apply flex flex-col items-center
+}
+article input{
+    @apply w-full text-center
+}
+input{
+    @apply border
+}
+#pointPlayer{
+    @apply flex 
+}
+.Tableau_point{
+    @apply w-full flex justify-center items-center h-full
+}
+/* article div{
+    @apply border
+} */
